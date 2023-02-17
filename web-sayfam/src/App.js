@@ -5,6 +5,7 @@ import Profile from "./components/Profile";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import NavBar from "./components/navbar";
+
 function App() {
   return (
     <div>

@@ -15,6 +15,7 @@ const TemelBilgiler = styled.div`
   border-radius: 12px;
   width: 250%;
   padding: 41px;
+  box-shadow: 9px 8px 0 5px rgba(82, 82, 82, 0.5);
   @media (max-width: 760px) {
     width: 95%;
     text-align: center;
@@ -78,6 +79,7 @@ const AboutMe = styled.h2`
   line-height: 32px;
   padding: 45px 15px 0 15px;
   margin: 0px;
+  width: 90%;
 `;
 const AboutMeparag = styled.p`
   font-family: "Inter";
@@ -87,7 +89,7 @@ const AboutMeparag = styled.p`
   line-height: 150%;
   letter-spacing: 0.01em;
   padding: 15px;
-  width: 95%;
+  width: 90%;
   margin: 0px;
 `;
 const AboutContainer = styled.div`
@@ -98,7 +100,7 @@ const Profile = () => {
   return (
     <div id="Profile">
       <MainconteinerGrey>
-        <AltContainer style={{ paddingBottom: "75px" }}>
+        <AltContainer>
           <Baslik>Profile</Baslik>
           <ProfileFlex>
             <TemelBilgiler>
@@ -123,13 +125,11 @@ const Profile = () => {
             <AboutContainer>
               <AboutMe>About me</AboutMe>
               <AboutMeparag>
-                Gün içerisinde sosyal medyada gördüğünüz reklamların birbirine
-                benzer oluşu sizin de canınızı sıkmıyor mu? Aynı markaymış gibi
-                birbirini tekrar eden pazarlama stratejileri gerçekten de etkili
-                olabilir mi? Zaman içerisinde markaların sosyal medya kullanımı
-                konusunda özensiz davranmaya başladığını düşünüyorum. Böyle bir
-                ortamda da özgün içerikler üreterek geniş kitlelere hitap etmek
-                zorlaşabiliyor.
+                I'm a nice fun and friendly person, I'm honest and punctual, I
+                work well in a team but also on my own as I like to set myself
+                goals which I will achieve, I have good listening and
+                communication skills. I have a creative mind and am always up
+                for new challenges.
               </AboutMeparag>
             </AboutContainer>
           </ProfileFlex>

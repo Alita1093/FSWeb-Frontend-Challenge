@@ -21,8 +21,6 @@ const AltYazi = styled.div`
 const FooterContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 80px;
-  padding-top: 80px;
 `;
 const Navigation = styled.nav`
   display: flex;
@@ -82,6 +80,7 @@ const FormContainer = styled.form`
   align-items: center;
   padding: 30px;
   background: #f4f4f4;
+
   margin: 100px 0;
   @media (max-width: 1470px) {
     margin: 75px 0;
@@ -93,6 +92,9 @@ const FormContainer = styled.form`
 const InputAlani = styled.input`
   width: 350px;
   height: 35px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
   font-size: 20px;
   @media (max-width: 760px) {
     width: 95%;
@@ -102,6 +104,9 @@ const InputAlani = styled.input`
 const LabelAlani = styled.label`
   padding: 10px;
   font-size: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
   color: black;
   display: flex;
   flex-direction: column;

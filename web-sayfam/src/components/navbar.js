@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Logo from "../images/Adsız.png";
+import Logo from "../images/Adsız1.png";
 import { HashLink as Link } from "react-router-hash-link";
 const Mainconteiner = styled.div`
   width: 1440px;

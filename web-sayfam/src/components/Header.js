@@ -1,6 +1,5 @@
 import React from "react";
 import styled from "styled-components";
-import logo from "../logo.svg";
 import github from "../images/github.png";
 import linkedIn from "../images/LinkedIn.png";
 import MainPho from "../images/MainPho.jpg";
@@ -8,6 +7,7 @@ const Mainconteiner = styled.div`
   width: 1440px;
   margin: 0px auto;
   background: #f4f4f4;
+  padding: 4rem 0;
   @media (max-width: 1470px) {
     width: 95%;
     font-size: 32px;
@@ -93,7 +93,8 @@ const Kirmizilar = styled.span`
 `;
 const MainPhoto = styled.img`
   width: 100%;
-  border-radius: 50%;
+  border-radius: 22px;
+  box-shadow: -0.7rem -0.7rem 0 5px #e92577;
 `;
 const Header = () => {
   return (
@@ -103,9 +104,8 @@ const Header = () => {
           <Selam>Selam</Selam>
           <Tanıtım>
             <TanıtımMesajı>
-              Ben Optimus Prime. Bu mesajı, yıldızlar arasında saklanan ve
-              hayatta kalan tüm Otobotlara gönderiyorum. Biz buradayız. Sizi
-              bekliyoruz.
+              I'm Furkan. I'm a full-stack developer. I can craft solid and
+              scalable frontend products. Let’s meet!
             </TanıtımMesajı>
             <Fotograf>
               <MainPhoto src={MainPho} alt="logo" />

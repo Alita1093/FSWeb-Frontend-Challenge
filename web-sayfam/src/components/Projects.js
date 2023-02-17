@@ -14,12 +14,12 @@ const Baslik = styled.h2`
 const ProjectBox = styled.div`
   background: #ddeefe;
   border-radius: 12px;
-  padding: 20px;
+  padding: 2rem;
   width: 40%;
 `;
 const ProjectConteiner = styled.div`
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   @media (max-width: 760px) {
     width: 100%;
     flex-direction: column;
@@ -54,6 +54,11 @@ const ProjectPrograms = styled.div`
   background: #ffffff;
   border-radius: 76px;
   justify-content: space-evenly;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 9;
+  font-size: 16px;
+  line-height: 100%;
   @media (max-width: 760px) {
     width: 30%;
     text-align: center;
@@ -67,6 +72,7 @@ const DisplayPrograms = styled.div`
     width: 95%;
     flex-direction: column;
     align-items: center;
+    text-align: center;
   }
 `;
 const ProgramsElement = styled.p`
