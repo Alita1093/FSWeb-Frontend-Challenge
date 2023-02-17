@@ -6,14 +6,16 @@ const Mainconteiner = styled.div`
   width: 1440px;
   margin: 0 auto;
 `;
+
 const Navigator = styled.div`
   width: 1440px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
   @media (max-width: 1470px) {
     width: 95%;
+    padding: 40px 0;
   }
   @media (max-width: 760px) {
     margin-bottom: 10px;
@@ -62,35 +64,38 @@ const NavBar = () => {
   return (
     <div id="Header">
       <Mainconteiner>
-        <Navigator>
-          <Link smooth to="#Header">
-            <Logoss src={Logo} alt="Logo"></Logoss>
-          </Link>
-          <Liste>
-            <Yonlendirme>
-              <div>
-                <Linkss smooth to="#Skills">
-                  Skills
+        <>
+          {" "}
+          <Navigator>
+            <Link smooth to="#Header">
+              <Logoss src={Logo} alt="Logo"></Logoss>
+            </Link>
+            <Liste>
+              <Yonlendirme>
+                <div>
+                  <Linkss smooth to="#Skills">
+                    Skills
+                  </Linkss>
+                </div>
+              </Yonlendirme>
+              <Yonlendirme>
+                <Linkss smooth to="#Profile">
+                  Profile
                 </Linkss>
-              </div>
-            </Yonlendirme>
-            <Yonlendirme>
-              <Linkss smooth to="#Profile">
-                Profile
-              </Linkss>
-            </Yonlendirme>
-            <Yonlendirme>
-              <Linkss smooth to="#Project">
-                Project
-              </Linkss>
-            </Yonlendirme>
-            <Yonlendirme>
-              <Linkss smooth to="#Hireme">
-                Hire me
-              </Linkss>
-            </Yonlendirme>
-          </Liste>
-        </Navigator>
+              </Yonlendirme>
+              <Yonlendirme>
+                <Linkss smooth to="#Project">
+                  Project
+                </Linkss>
+              </Yonlendirme>
+              <Yonlendirme>
+                <Linkss smooth to="#Hireme">
+                  Hire me
+                </Linkss>
+              </Yonlendirme>
+            </Liste>
+          </Navigator>
+        </>
       </Mainconteiner>
     </div>
   );

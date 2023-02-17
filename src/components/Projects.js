@@ -112,6 +112,8 @@ const LinkYonlendirme = styled.a`
 `;
 const Imaj = styled.img`
   width: 95%;
+  position: relative;
+
   @media (max-width: 760px) {
     width: 95%;
     text-align: center;

@@ -3,7 +3,8 @@ import emailjs from "@emailjs/browser";
 import { useForm } from "react-hook-form";
 import { Mainconteiner, AltContainer } from "../Style";
 import styled from "styled-components";
-import { ToastContainer, toast } from "react-toastify";
+import { toast } from "react-toastify";
+import "../keyframe.css";
 const AltYazi = styled.div`
   font-family: "Inter";
   font-style: normal;
@@ -13,7 +14,7 @@ const AltYazi = styled.div`
   text-align: right;
   letter-spacing: 0.01em;
   color: #0a0a14;
-  width: 40%;
+  width: 50%;
   @media (max-width: 760px) {
     font-size: 32px;
   }
@@ -80,6 +81,7 @@ const FormContainer = styled.form`
   align-items: center;
   padding: 30px;
   background: #f4f4f4;
+  box-shadow: -20px -20px 40px -6px rgba(0, 0, 0, 0.2);
 
   margin: 100px 0;
   @media (max-width: 1470px) {
@@ -96,13 +98,25 @@ const InputAlani = styled.input`
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
+  text-align: center;
+  border-style: solid;
+  background: transparent;
+  padding: 1em;
+  margin-bottom: 2em;
+  border: none;
+  border-left: 1px solid $white;
+  border-top: 1px solid $white;
+  border-radius: 5000px;
+  backdrop-filter: blur(5px);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
   @media (max-width: 760px) {
     width: 95%;
     text-align: center;
   }
 `;
 const LabelAlani = styled.label`
-  padding: 10px;
+  padding: 20px;
   font-size: 20px;
   font-family: "Inter";
   font-style: normal;
@@ -111,6 +125,16 @@ const LabelAlani = styled.label`
   display: flex;
   flex-direction: column;
   align-items: center;
+`;
+const Sus = styled.div`
+  position: relative;
+  width: 275px;
+  height: 18px;
+  left: -62px;
+  top: -245px;
+  background: #82bbff;
+  border-radius: 4px;
+  opacity: 0.5;
 `;
 
 const Footer = () => {
@@ -188,6 +212,7 @@ const Footer = () => {
 
           <FormContainer ref={form} onSubmit={handleSubmit(sendEmail)}>
             <LabelAlani htmlFor="İsimSoyisim">
+              <Sus></Sus>
               İsim Soyisim
               <InputAlani
                 id="İsimSoyisim"
@@ -246,6 +271,10 @@ const Footer = () => {
             {errors.mesaj && <p>{errors.mesaj.message}</p>}
 
             <button onClick={Bildirim} type="submit" disabled={!isValid}>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
               Gönder
             </button>
           </FormContainer>

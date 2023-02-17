@@ -22,10 +22,8 @@ const TanıtımMesajı = styled.div`
   line-height: 64px;
   color: #0a0a14;
   width: 66%;
-
   @media (max-width: 760px) {
     width: 95%;
-    font-size: 22px;
   }
 `;
 const Selam = styled.h3`
@@ -38,18 +36,6 @@ const Selam = styled.h3`
   margin: 0px;
   padding-bottom: 30px;
   padding-top: 30px;
-  @media (max-width: 1470px) {
-    width: 95%;
-    font-size: 32px;
-    padding-bottom: 30px;
-    padding-top: 90px;
-  }
-  @media (max-width: 760px) {
-    width: 95%;
-    font-size: 22px;
-    padding-bottom: 30px;
-    padding-top: 60px;
-  }
 `;
 const Fotograf = styled.div`
   width: 30.6%;
@@ -96,15 +82,28 @@ const MainPhoto = styled.img`
   border-radius: 22px;
   box-shadow: -0.7rem -0.7rem 0 5px #e92577;
 `;
+const Sus = styled.div`
+background: #e92577;
+border-radius: 4px;
+position: relative;
+width: 138px;
+height: 30px;
+left: 38px;
+top: 66px;
+opacity: 0.85;
+}
+`;
 const Header = () => {
   return (
     <div id="Header">
       <Mainconteiner>
         <AltContainer>
           <Selam>Selam</Selam>
+          <Sus></Sus>
+
           <Tanıtım>
             <TanıtımMesajı>
-              I'm Furkan. I'm a full-stack developer. I can craft solid and
+              I'm Furkan . I'm a full-stack developer. I can craft solid and
               scalable frontend products. Let’s meet!
             </TanıtımMesajı>
             <Fotograf>

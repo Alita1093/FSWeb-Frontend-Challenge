@@ -13,7 +13,7 @@ const Baslik = styled.h2`
 const TemelBilgiler = styled.div`
   background: #ffffff;
   border-radius: 12px;
-  width: 250%;
+  width: 170%;
   padding: 41px;
   box-shadow: 9px 8px 0 5px rgba(82, 82, 82, 0.5);
   @media (max-width: 760px) {
@@ -96,6 +96,16 @@ const AboutContainer = styled.div`
   display: flex;
   flex-direction: column;
 `;
+const Sus = styled.div`
+  position: relative;
+  width: 90px;
+  height: 18px;
+  left: 11px;
+  top: 80px;
+  background: #82bbff;
+  border-radius: 4px;
+  opacity: 0.5;
+`;
 const Profile = () => {
   return (
     <div id="Profile">
@@ -123,6 +133,7 @@ const Profile = () => {
               </FlexBox>
             </TemelBilgiler>
             <AboutContainer>
+              <Sus></Sus>
               <AboutMe>About me</AboutMe>
               <AboutMeparag>
                 I'm a nice fun and friendly person, I'm honest and punctual, I
