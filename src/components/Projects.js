@@ -113,10 +113,12 @@ const LinkYonlendirme = styled.a`
 const Imaj = styled.img`
   width: 95%;
   position: relative;
-
+  top: 67px;
   @media (max-width: 760px) {
     width: 95%;
     text-align: center;
+    position: relative;
+    top: 0px;
   }
 `;
 const Projects = () => {

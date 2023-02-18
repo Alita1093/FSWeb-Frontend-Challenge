@@ -35,7 +35,7 @@ export const ProjectsData = [
     key: 2,
     baslik: "Random Activity",
     aciklama:
-      "Random Aktivitelerin bulunduğu bir API'den veriler çekilerek bir boxın içerisinde gösterilir. Data içerisinde aktivite tipi,kaç kişi gerektiği, fiyatlandırması gibi bilgiler de bulunur. Favoriye eklenen aktiviteler Local Storage'da saklanır. ",
+      "Random Aktivitelerin bulunduğu bir API'den veriler çekilerek bir boxın içerisinde gösterilir. Data içerisinde aktivite tipi,kaç kişi gerektiği, fiyatlandırması gibi bilgiler de bulunur. Favoriye eklenen aktiviteler Local Storage'da saklanır. Bununla birlikte kısa süreli hafızada yer tutulur. ",
     kullanilanProgramlar: ["react", "vercel", "axios", "router", "redux"],
     foto: "https://www.linkpicture.com/q/Rectangle-37_1.png",
     GithubLink: "https://github.com/Alita1093/fsweb-s10g4-thunk-and-apis",

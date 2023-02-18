@@ -9,6 +9,7 @@ button {
   overflow: hidden;
   transition: 0.5s;
   letter-spacing: 4px;
+  border: none;
 }
 
 button:hover {
