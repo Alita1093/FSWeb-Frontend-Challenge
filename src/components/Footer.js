@@ -100,16 +100,12 @@ const InputAlani = styled.input`
   font-size: 20px;
   text-align: center;
   border-style: solid;
-  background: transparent;
-  padding: 1em;
-  margin-bottom: 2em;
+  padding: 0.8em;
   border: none;
+  margin-top: 0.7em;
   border-left: 1px solid $white;
   border-top: 1px solid $white;
   border-radius: 5000px;
-  backdrop-filter: blur(5px);
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
   @media (max-width: 760px) {
     width: 95%;
     text-align: center;
