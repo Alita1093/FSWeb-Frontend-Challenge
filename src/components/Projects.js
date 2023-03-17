@@ -16,6 +16,11 @@ const ProjectBox = styled.div`
   border-radius: 12px;
   padding: 2rem;
   width: 40%;
+  @media (max-width: 760px) {
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 const ProjectConteiner = styled.div`
   display: flex;

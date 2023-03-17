@@ -24,6 +24,7 @@ const TanıtımMesajı = styled.div`
   width: 66%;
   @media (max-width: 760px) {
     width: 95%;
+    text-align: center;
   }
 `;
 const Selam = styled.h3`
@@ -36,6 +37,10 @@ const Selam = styled.h3`
   margin: 0px;
   padding-bottom: 30px;
   padding-top: 30px;
+  @media (max-width: 760px) {
+    width: 95%;
+    text-align: center;
+  }
 `;
 const Fotograf = styled.div`
   width: 30.6%;

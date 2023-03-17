@@ -19,6 +19,7 @@ const TemelBilgiler = styled.div`
   @media (max-width: 760px) {
     width: 95%;
     text-align: center;
+    box-shadow: none;
   }
 `;
 const AltBaslik = styled.h4`
