@@ -25,7 +25,14 @@ const ProjectBox = styled.div`
 const ProjectConteiner = styled.div`
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3rem;
   @media (max-width: 760px) {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  @media (max-width: 1080px) {
     width: 100%;
     flex-direction: column;
     align-items: center;
@@ -134,7 +141,10 @@ const Projects = () => {
           <Baslik>Projects</Baslik>
           <ProjectConteiner>
             {ProjectsData.map((item) => (
-              <ProjectBox key={item.key}>
+              <ProjectBox
+                key={item.key}
+                style={{ backgroundColor: item.backgroundColor }}
+              >
                 <ProjectConteinerBaslik>{item.baslik}</ProjectConteinerBaslik>
                 <ProjectAciklama>{item.aciklama}</ProjectAciklama>
                 <DisplayPrograms>

@@ -209,7 +209,7 @@ const Footer = () => {
           <FormContainer ref={form} onSubmit={handleSubmit(sendEmail)}>
             <LabelAlani htmlFor="İsimSoyisim">
               <Sus></Sus>
-              İsim Soyisim
+              Name
               <InputAlani
                 id="İsimSoyisim"
                 name="İsimSoyisim"
@@ -240,7 +240,7 @@ const Footer = () => {
             </LabelAlani>
             {errors.email && <p>{errors.email.message}</p>}
             <LabelAlani>
-              Kurum İsmi
+              Company Name
               <InputAlani
                 name="kurumİsmi"
                 type="text"
@@ -251,7 +251,7 @@ const Footer = () => {
             </LabelAlani>
             {errors.kurumİsmi && <p>{errors.kurumİsmi.message}</p>}
             <LabelAlani>
-              Mesaj
+              Message
               <InputAlani
                 name="mesaj"
                 type="text"
@@ -271,7 +271,7 @@ const Footer = () => {
               <span></span>
               <span></span>
               <span></span>
-              Gönder
+              Submit
             </button>
           </FormContainer>
         </AltContainer>

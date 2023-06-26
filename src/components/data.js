@@ -2,20 +2,20 @@ export const Data = [
   {
     baslik: "JavaScript",
     icerik:
-      "Sosyal medya akışlarını yenilemekten animasyonlar ve etkileşimli haritalar göstermeye kadar, bir web sitesi kullanıcısının deneyimini iyileştirebilir. İstemci tarafındaki bir betik dili olarak, World Wide Web'in temel teknolojilerinden biridir. ",
+      "From refreshing social media feeds to showing animations and interactive maps, it can improve a website user's experience. As a client-side scripting language, it is one of the core technologies of the World Wide Web. ",
     key: 1,
   },
   {
     key: 2,
     baslik: "React.Js",
     icerik:
-      "JavaScript, web geliştirmede kullanılan basit bir betik dilidir. Geliştiriciler, JavaScript kullanarak çok çeşitli dinamik içerik, grafik, animasyon vb. programlayabilir.",
+      "JavaScript is a simple scripting language used in web development. Using JavaScript, developers can create a wide variety of dynamic content, graphics, animations, etc. can program.",
   },
   {
     key: 3,
     baslik: "Node Js",
     icerik:
-      "Node.js performanslı ve gerçek zamanlı veriye dayalı uygulamalar geliştirmek için kullanılabilecek önde gelen teknolojilerden birisidir. Argenova olarak geliştirdiğimiz web uygulamalarımıza Node js teknolojileri kullanıyoruz",
+      "Nodejs is one of the leading technologies that can be used to develop performance and real-time data-driven applications. As Argenova, we use Nodejs technologies for our web applications.",
   },
 ];
 export const ProjectsData = [
@@ -24,7 +24,7 @@ export const ProjectsData = [
 
     baslik: "Movie Watch List",
     aciklama:
-      "Datada kayıtlı olan filmlerin bir box içerisinde gösterilerek, data içerisinde ileri geri fonksiyonlarının olması ve favori listesine eklenebilmesi sağlanmıştır. Favori film listesinde ise sadece çıkar fonksiyonu bulunmaktadır. Local Storage ile kayıt kısa süreli kayıt edilir.",
+      "By displaying the movies recorded in the data in a box, it is ensured that they have back and forth functions in the data and can be added to the favorite list. In the favorite movie list, there is only the extract function. With Local Storage, the recording is recorded for a short time.",
     kullanilanProgramlar: ["react", "vercel", "axios", "router"],
     foto: "https://www.linkpicture.com/q/Rectangle-36_1.png",
     GithubLink: "https://github.com/Alita1093/fsweb-s10g3-redux-watchlist",
@@ -35,10 +35,32 @@ export const ProjectsData = [
     key: 2,
     baslik: "Random Activity",
     aciklama:
-      "Random Aktivitelerin bulunduğu bir API'den veriler çekilerek bir boxın içerisinde gösterilir. Data içerisinde aktivite tipi,kaç kişi gerektiği, fiyatlandırması gibi bilgiler de bulunur. Favoriye eklenen aktiviteler Local Storage'da saklanır. Bununla birlikte kısa süreli hafızada yer tutulur. ",
-    kullanilanProgramlar: ["react", "vercel", "axios", "router", "redux"],
+      "Data is pulled from an API with Random Activities and displayed in a box. The data also includes information such as the type of activity, how many people are required, and pricing. Favorited activities are stored in Local Storage. However, it retains space in short-term memory. ",
+    kullanilanProgramlar: ["React", "Axios", "Router", "Redux"],
     foto: "https://www.linkpicture.com/q/Rectangle-37_1.png",
     GithubLink: "https://github.com/Alita1093/fsweb-s10g4-thunk-and-apis",
     verserLink: "https://fsweb-s10g4-thunk-and-apis.vercel.app/",
+    backgroundColor: "#e92577",
+  },
+  {
+    key: 3,
+    baslik: "Twitter Clone App",
+    aciklama:
+      "An application has been made where users can register, log in, log out, and create posts only for logged in users.Changing the passwords and usernames of logged in users possible. It also includes functions that only the admin user can do.",
+    kullanilanProgramlar: ["React", "NodeJS", "MongoDB", "Redux"],
+    foto: "https://www.linkpicture.com/q/Rectangle-37_1.png",
+    GithubLink: "https://github.com/Alita1093/fsweb-s10g4-thunk-and-apis",
+    verserLink: "https://fsweb-s10g4-thunk-and-apis.vercel.app/",
+    backgroundColor: "#e92577",
+  },
+  {
+    key: 4,
+    baslik: "Admin Dashboard",
+    aciklama:
+      "Backend was created using MondoDB and Nodejs ready data. For state management, mostly redux tool kit was used. An interface has been developed for administrators to analyze data. ",
+    kullanilanProgramlar: ["React", "NodeJS", "MongoDB", "Redux"],
+    foto: "https://www.linkpicture.com/q/Rectangle-37_1.png",
+    GithubLink: "https://github.com/FurkanOzturk1093/FullStackAdminDashboard",
+    verserLink: "https://admin-frontend-j71x.onrender.com/dashboard",
   },
 ];

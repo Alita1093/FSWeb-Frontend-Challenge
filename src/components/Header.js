@@ -103,7 +103,7 @@ const Header = () => {
     <div id="Header">
       <Mainconteiner>
         <AltContainer>
-          <Selam>Selam</Selam>
+          <Selam>Hey</Selam>
           <Sus></Sus>
 
           <Tanıtım>
@@ -124,7 +124,7 @@ const Header = () => {
               <img src={linkedIn} alt="Linkedin" />
             </a>
             <a
-              href="https://github.com/Alita1093"
+              href="https://github.com/FurkanOzturk1093"
               target="_blank"
               rel="noreferrer"
             >
